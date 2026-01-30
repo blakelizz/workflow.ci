@@ -1,4 +1,4 @@
-name: NodeJS with Webpack
+name: Node CI
 
 on:
   push:
@@ -30,6 +30,3 @@ jobs:
 
     - name: Run tests
       run: npm test
-
-    - name: Build with Webpack
-      run: npx webpack
